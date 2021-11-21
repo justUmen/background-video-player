@@ -1,0 +1,12 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-p": "background-video-player:open",
+    "ctrl-alt-i": "background-video-player:open_images",
+    "ctrl-alt-s": "background-video-player:stop",
+    "ctrl-alt-c": "background-video-player:play_pause",
+    "ctrl-alt-l": "background-video-player:toggle_loop",
+    "ctrl-alt-m": "background-video-player:toggle_sound",
+    "ctrl-alt-r": "background-video-player:toggle_random",
+    "ctrl-alt-n": "background-video-player:next_video"
+  }
+}

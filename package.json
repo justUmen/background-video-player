@@ -1,0 +1,17 @@
+{
+  "name": "background-video-player",
+  "main": "./lib/video-player",
+  "version": "0.0.1",
+  "description": "Background video player.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/test",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

@@ -1,0 +1,25 @@
+.scroll-view span{
+  background-color: "" !important;
+  text-shadow:
+       -3px -3px 1px black,-3px -2px 1px black,-3px -1px 1px black,
+       -3px 0px 1px black,-3px 1px 1px black,-3px 2px 1px black,
+       -3px 3px 1px black,-2px -3px 1px black,-2px -2px 1px black,
+       -2px -1px 1px black,-2px 0px 1px black,-2px 1px 1px black,
+       -2px 2px 1px black,-2px 3px 1px black,-1px -3px 1px black,
+       -1px -2px 1px black,-1px -1px 1px black,-1px 0px 1px black,
+       -1px 1px 1px black,-1px 2px 1px black,-1px 3px 1px black,
+       0px -3px 1px black,0px -2px 1px black,0px -1px 1px black,
+       0px 0px 1px black,0px 1px 1px black,0px 2px 1px black,
+       0px 3px 1px black,1px -3px 1px black,1px -2px 1px black,
+       1px -1px 1px black,1px 0px 1px black,1px 1px 1px black,
+       1px 2px 1px black,1px 3px 1px black,2px -3px 1px black,
+       2px -2px 1px black,2px -1px 1px black,2px 0px 1px black,
+       2px 1px 1px black,2px 2px 1px black,2px 3px 1px black,
+       3px -3px 1px black,3px -2px 1px black,3px -1px 1px black,
+       3px 0px 1px black,3px 1px 1px black,3px 2px 1px black,
+       3px 3px 1px black;
+}
+
+.lines{
+  line-height:1.5;
+}

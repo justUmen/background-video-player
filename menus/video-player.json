@@ -1,0 +1,17 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "background-video-player",
+          "submenu": [
+            { "label": "Open", "command": "background-video-player:open" },
+            { "label": "Stop", "command": "background-video-player:stop" },
+            { "label": "Play / Pause", "command": "background-video-player:play_pause" }
+          ]
+        }
+      ]
+    }
+  ]
+}

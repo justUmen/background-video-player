@@ -1,0 +1,9 @@
+.scroll-view span{
+  background-color: black !important;
+  text-shadow: none;
+}
+
+/* QUICK FIX TO SEE SELECTION AND HIGHLIGHT ON TOP AND BOTTOM... BECAUSE IT IS BEHIND THE SPAN BACKGROUND-COLOR :( */
+.lines{
+  line-height:1.5;
+}
