@@ -1,6 +1,11 @@
 @import "ui-variables";
 @import "syntax-variables";
 
+// SOME THEMES PUT COLOR ABOVE BACKGROUND IMAGE (Nord Atom for example)
+// atom-pane-container atom-pane .item-views, .pane-item{
+//   background-color: "" !important;
+// }
+
 // video-player {
 //   &::shadow {
 //     video {
@@ -29,6 +34,8 @@ video-player-background {
     opacity: 0.8;
   }
   video-player-background {
+    width: 1920px !important;
+    height: 1080px !important;
     display: block !important;
     &.front {
       z-index: 3;

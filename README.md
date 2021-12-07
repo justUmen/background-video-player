@@ -11,6 +11,11 @@ And desired font : "Source Code Pro Black"
 
 #### Todo :
 
+- SOME THEMES PUT COLOR ABOVE BACKGROUND IMAGE (Nord Atom for example)... :(
+  (Need to edit theme manually, cannot find JS or CSSthat works with !important... - .item-views)
+
+- progressbar not good position for all themes :P
+
 - allow several images to be managed like next_video (next_image ?)
 
 - images : not use image if (height > width)
@@ -32,3 +37,9 @@ And desired font : "Source Code Pro Black"
 - allow to add an unlimited amount of RV / RVL / RI... in settings
 
 - range of background opacity in settings
+
+- Add button for Real_ESRGAN
+
+- ctrl + alt + m : next image ???
+
+- transfer to/from mpv player :-)
