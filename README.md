@@ -43,3 +43,17 @@ And desired font : "Source Code Pro Black"
 - ctrl + alt + m : next image ???
 
 - transfer to/from mpv player :-)
+
+# XTRA (Not related to background-video-player but to Atom in general)
+
+For minimap highlight-selected, change 2 functions :
+
+search-model.js :
+
+`static makeClasses() {
+  atom.config.set('minimap.displayCodeHighlights', 'false');`
+
+selection-manager.js :
+
+`removeAllMarkers() {
+  atom.config.set('minimap.displayCodeHighlights', 'true');`
