@@ -44,9 +44,10 @@ And desired font : "Source Code Pro Black"
 
 - transfer to/from mpv player :-)
 
-# XTRA (Not related to background-video-player but to Atom in general)
+# XTRA (Not related to background-video-player but to Atom in general on my personal configuration)
 
-For minimap highlight-selected, change 2 functions :
+1 - I want to switch displayCodeHighlights on text selection, to see it better,
+Need to change 2 functions in the "highlight-selected" plugin :
 
 search-model.js :
 
