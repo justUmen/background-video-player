@@ -11,6 +11,8 @@ And desired font : "Source Code Pro Black"
 
 #### Todo :
 
+- inject iframe youtube (ads ?)
+
 - SOME THEMES PUT COLOR ABOVE BACKGROUND IMAGE (Nord Atom for example)... :(
   (Need to edit theme manually, cannot find JS or CSSthat works with !important... - .item-views)
 
