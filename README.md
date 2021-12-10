@@ -46,9 +46,9 @@ And desired font : "Source Code Pro Black"
 
 - transfer to/from mpv player :-)
 
-# XTRA (Not related to background-video-player but to Atom in general on my personal configuration)
+# XTRA (Not directly related to background-video-player but to Atom in general on my personal configuration)
 
-1 - I want to switch displayCodeHighlights on text selection, to see it better,
+1 - I want to switch displayCodeHighlights on text selection, to see it better on the minimap,
 Need to change 2 functions in the "highlight-selected" plugin :
 
 search-model.js :
@@ -60,3 +60,13 @@ selection-manager.js :
 
 `removeAllMarkers() {
   atom.config.set('minimap.displayCodeHighlights', 'true');`
+
+2 - Refresh the css right position of wallpaper to avoid minimap by changing "tree-view-autoresize" plugin :
+On hide/show tree-view, the background wallpaper goes under the minimap plugin...
+
+tree-view-autoresize.coffee :
+
+`resizeTreeView: ->
+    setTimeout =>
+      document.querySelectorAll(".item-views")[1].style.backgroundPosition="top 0px right "
+        + document.getElementsByTagName('atom-text-editor-minimap')[0].width + "px";`
