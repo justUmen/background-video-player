@@ -3,8 +3,7 @@
   "main": "./lib/video-player",
   "version": "0.0.1",
   "description": "Background video player.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/atom/test",
   "license": "MIT",
   "engines": {
@@ -12,6 +11,8 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "smalltalk": "^4.0.7",
+    "youtube-dl-exec": "^2.0.1"
   }
 }

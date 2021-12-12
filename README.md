@@ -11,7 +11,7 @@ And desired font : "Source Code Pro Black"
 
 #### Todo :
 
-- inject iframe youtube (ads ?)
+- inject youtube (youtube-dl) ??? switch to mpv too ???
 
 - SOME THEMES PUT COLOR ABOVE BACKGROUND IMAGE (Nord Atom for example)... :(
   (Need to edit theme manually, cannot find JS or CSSthat works with !important... - .item-views)
