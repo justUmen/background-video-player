@@ -1,0 +1,18 @@
+.scroll-view span, .terminal, .gutter{
+  background-color: "" !important;
+  text-shadow: -2px -2px 1px black,-2px -1px 1px black,-2px 0px 1px black,-2px 1px 1px black,-2px 2px 1px black,
+    -1px -2px 1px black,-1px -1px 1px black,-1px 0px 1px black,-1px 1px 1px black,-1px 2px 1px black,
+    0px -2px 1px black,0px -1px 1px black,0px 0px 1px black,0px 1px 1px black,0px 2px 1px black,
+    1px -2px 1px black,1px -1px 1px black,1px 0px 1px black,1px 1px 1px black,1px 2px 1px black,
+    2px -2px 1px black,2px -1px 1px black,2px 0px 1px black,2px 1px 1px black,2px 2px 1px black !important;
+}
+
+.lines{
+  line-height:1.5;
+}
+
+.xterm{
+  /* MOVE UP TO LOOK SIMILAR TO THE ORIGINAL */
+  background-position: -3px -3px;
+  background-image: url('file:///home/umen/SyNc/Projects/HtmlWallpaper/image_created_by_thunar.jpg');
+}

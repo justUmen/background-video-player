@@ -9,9 +9,15 @@ And desired font : "Source Code Pro Black"
 
 ### Play videos in background
 
+### recommended
+
+- use Real_ESRGAN to improve qulity of images
+
+- use thunar script for image_created_by_thunar.jpg and folders "images_created_by_thunar"...
+
 #### Todo :
 
-- inject youtube (youtube-dl) ??? switch to mpv too ???
+- new option : do not display background image under the minimap (on/off)
 
 - SOME THEMES PUT COLOR ABOVE BACKGROUND IMAGE (Nord Atom for example)... :(
   (Need to edit theme manually, cannot find JS or CSSthat works with !important... - .item-views)
@@ -68,5 +74,6 @@ tree-view-autoresize.coffee :
 
 `resizeTreeView: ->
     setTimeout =>
-      document.querySelectorAll(".item-views")[1].style.backgroundPosition="top 0px right "
+      if(atom.config.get('background-video-player.underMinimap')==false)
+        document.querySelectorAll(".item-views")[1].style.backgroundPosition="top 0px right "
         + document.getElementsByTagName('atom-text-editor-minimap')[0].width + "px";`
