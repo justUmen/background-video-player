@@ -2,6 +2,8 @@
 
 *** ALPHA VERSION (Not really public ready) ***
 
+*** ESPECIALLY BAD WINDOWS SUPPORT FOR NOW :P ***
+
 ## Usage
 
 ### Play videos in background
