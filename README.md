@@ -1,9 +1,6 @@
 # Background video player for Atom
 
-For best rendering, add in the option line-height: 1.2 To avoid transparency in between lines
-And desired font : "Source Code Pro Black"
-
-*** BROKEN ON SELECTION THAT IS IN THE BACKGROUND FOR SOME REASON ***
+*** ALPHA VERSION (Not really public ready) ***
 
 ## Usage
 
@@ -11,20 +8,14 @@ And desired font : "Source Code Pro Black"
 
 ### recommended
 
-- use Real_ESRGAN to improve qulity of images
+- use Real_ESRGAN to improve quality of images (not implemented yet)
 
-- use thunar script for image_created_by_thunar.jpg and folders "images_created_by_thunar"...
+- use thunar script for image_created_by_thunar.jpg and folders "images_created_by_thunar"... (not public yet)
 
 #### Todo :
 
-- new option : do not display background image under the minimap (on/off)
-
 - SOME THEMES PUT COLOR ABOVE BACKGROUND IMAGE (Nord Atom for example)... :(
   (Need to edit theme manually, cannot find JS or CSSthat works with !important... - .item-views)
-
-- progressbar not good position for all themes :P
-
-- allow several images to be managed like next_video (next_image ?)
 
 - images : not use image if (height > width)
 
@@ -38,10 +29,6 @@ And desired font : "Source Code Pro Black"
 
 - disable / enable dim background
 
-- buttons to see enable / disable status (green/gray ???)
-
-- change images automatically after x seconds (random from folder) - Or
-
 - allow to add an unlimited amount of RV / RVL / RI... in settings
 
 - range of background opacity in settings
@@ -50,7 +37,7 @@ And desired font : "Source Code Pro Black"
 
 - ctrl + alt + m : next image ???
 
-- transfer to/from mpv player :-)
+- transfer to/from mpv player
 
 # XTRA (Not directly related to background-video-player but to Atom in general on my personal configuration)
 

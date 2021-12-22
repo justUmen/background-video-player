@@ -1,11 +1,11 @@
 {
   "name": "background-video-player",
-  "url" : "https://github.com/justUmen",
+  "url" : "https://github.com/justUmen/background-video-player",
   "main": "./lib/video-player",
   "version": "0.0.1",
   "description": "Background video player.",
   "keywords": [],
-  "repository": "https://github.com/atom/test",
+  "repository": "https://github.com/justUmen/background-video-player",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
