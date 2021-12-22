@@ -12,7 +12,6 @@
   "bundleDependencies": false,
   "dependencies": {
     "jquery": "^3.2.1",
-    "smalltalk": "^4.0.7",
-    "youtube-dl-exec": "^2.0.2"
+    "smalltalk": "^4.0.7"
   }
 }
