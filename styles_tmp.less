@@ -1,0 +1,92 @@
+.selection .region {
+  background-color: rgba(0,255,22,0.5) !important;
+}
+
+// BACKGROUND FOR MINIMAP
+atom-text-editor,
+html  {
+  atom-text-editor-minimap canvas:first-child {
+    background: rgba(0,0,0,0.8);
+  }
+}
+//BACKGROUND FOR MINIMAP (Curently displayed in the main window)
+atom-text-editor atom-text-editor-minimap .minimap-visible-area::after {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+//Color of text selected (atom.config.set('minimap.displayCodeHighlights', 'false'); automatic on selection)
+.minimap .highlight-selected {
+  background: red;
+  font-weight:bold;
+}
+
+/*---------------------------------
+
+@@@@@@@@ @@@@@@@ @@@@@@@ @@@@@@@@
+   @@    @@      @@         @@
+   @@    @@@@@   @@@@@@@    @@
+   @@    @@           @@    @@
+   @@    @@@@@@@ @@@@@@@    @@
+
+----------------------------------*/
+
+// different monospace font for comments (Clean with minimap titles)
+.syntax--comment{
+  // font-size:0.9em;
+  // font-family:"monospace";  //Monospace comments are a little compared to Inconsolata :/
+  color:#777; //More readable on the black background of minimap
+}
+
+.cursor {
+  background-color:rgba(255,255,255,0.3);
+  border:1px solid black;
+  animation:blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.editor{
+  //MONO
+  // font-family: Source Code Pro Black;
+  // font-family: monospace;
+  font-family: "Kongtext"; font-size:16px;
+  // font-family: "Kongtext2"; font-size:16px;
+  // font-family: "Bohemian Typewriter"; font-weight: bold;
+  //PAS MONO
+  //PAS SUR
+  // font-family: Menlo;
+  // font-family: DejaVu Sans Mono;
+  // font-family: "Yoshi's Story game text BRK"; font-size:25px;
+  // font-family: "3270 Condensed"; font-weight: bold;
+  // font-family: "Circular Abstracts"; font-size: 18px;
+  // font-family: "Chilanka"; font-weight: bold;
+  // font-family: "Courier 10 Pitch"; font-weight: bold;
+  // font-family: "Crackdown O1 BRK";
+  // font-family: "Freak Turbulence BRK"; font-weight: bold;
+  // font-family: "Grudge BRK";
+  // font-family: "Hillock BRK";
+  // font-family: "Inconsolata"; font-weight: bold;
+  // font-family: "Plasma Drip BRK";
+  // font-family: "Purisa"; font-weight: bold;
+  // font-family: "saxMono"; font-weight: bold;
+  // font-family: "Roboto"; font-weight: bold;
+  // font-family: "Share Tech Mono"; font-weight: bold; //BUg with "fixed" word ???
+  // font-family: "Simpleton BRK"; font-weight: bold;
+  // font-family: "Ticketing"; font-weight: bold;
+  // font-family: "Zekton"; font-weight: bold;
+}
+// UGLY FIRST LETTER  OF LINE STUCK ON THE BORDER
+atom-text-editor .line {
+    padding-left: 5px;
+}
+.gutter{
+  border-right:2px solid black;
+}
