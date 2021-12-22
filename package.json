@@ -1,6 +1,6 @@
 {
   "name": "background-video-player",
-  "url" : "https://github.com/justUmen/background-video-player",
+  "url": "https://github.com/justUmen/background-video-player",
   "main": "./lib/video-player",
   "version": "0.0.1",
   "description": "Background video player.",
@@ -14,6 +14,6 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "smalltalk": "^4.0.7",
-    "youtube-dl-exec": "^2.0.1"
+    "youtube-dl-exec": "^2.0.2"
   }
 }
