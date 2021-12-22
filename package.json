@@ -1,6 +1,6 @@
 {
   "name": "background-video-player",
-  "author" : "https://github.com/justUmen",
+  "url" : "https://github.com/justUmen",
   "main": "./lib/video-player",
   "version": "0.0.1",
   "description": "Background video player.",
