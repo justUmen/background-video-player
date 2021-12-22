@@ -1,4 +1,4 @@
-# Background video player for Atom
+# Background video player / manager for Atom
 
 *** ALPHA VERSION (Not really public ready) ***
 
