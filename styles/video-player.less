@@ -28,20 +28,42 @@ video-player-background {
   }
 }
 
-.item-views {
-  > *:not(video-player-tab):not(video-player-background) {
-    z-index: 2;
-    opacity: 0.8;
-  }
-  video-player-background {
-    width: 1920px !important;
-    height: 1080px !important;
-    display: block !important;
-    &.front {
-      z-index: 3;
+
+
+@media screen and (min-width: 1920px) {
+  .item-views {
+    > *:not(video-player-tab):not(video-player-background) {
+      z-index: 2;
+      opacity: 0.8;
+    }
+    video-player-background {
+      width: 1920px !important;
+      height: 1080px !important;
+      display: block !important;
+      &.front {
+        z-index: 3;
+      }
     }
   }
 }
+
+@media screen and (min-width: 3840px) {
+  .item-views {
+    > *:not(video-player-tab):not(video-player-background) {
+      z-index: 2;
+      opacity: 0.8;
+    }
+    video-player-background {
+      width: 3840px !important;
+      height: 2160px !important;
+      display: block !important;
+      &.front {
+        z-index: 3;
+      }
+    }
+  }
+}
+
 
 // @bg_shadow_color: #000; //Color around text
 
