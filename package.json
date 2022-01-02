@@ -1,7 +1,7 @@
 {
   "name": "background-video-player",
   "main": "./lib/video-player",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "Background video player.",
   "keywords": [],
   "repository": "https://github.com/justUmen/background-video-player",
