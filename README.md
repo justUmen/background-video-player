@@ -2,6 +2,8 @@
 
 *** ALPHA VERSION (Not really public ready) ***
 
+update with GIT + token : https://github.com/settings/tokens/
+
 *** ESPECIALLY BAD WINDOWS SUPPORT FOR NOW :P ***
 
 ## Usage
